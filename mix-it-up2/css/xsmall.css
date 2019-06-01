@@ -1,0 +1,31 @@
+
+/********** NAVIGATION **********/
+.navbar-brand{
+	width: 18%;
+}
+
+.logo-name{
+	font-size: 2.3rem;
+}
+
+/********** FORSIDE **********/
+.down-from-banner {
+	margin-top:50px !important;
+}
+
+.forside-contianer{
+	height: 80vh;
+}
+
+#header_banner {
+	height: 400px;
+	top:25%;
+}
+
+.mt-auto-mix{
+	margin-top: 50%;
+}
+
+.forside{
+	margin-top: 65px !important;		
+}

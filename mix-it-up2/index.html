@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="da">
+<head>
+	<!--Logo vises i tabfanen-->
+	<link rel="shortcut icon" type="image/png" href="billeder/logo.png">
+	
+	<!-- Denne gør, så når man deler linket f.eks. på facebook, så kommer vore logo på -->
+	<meta property="og:image" content="billeder/logo.png">
+	
+	<!--Meta description er det som google hvise ved søgninger og bruges til SEO optimering-->
+	<meta name="description" content="Kan du lide cocktails? Her på siden kan du finde oplysninger om diverse cocktails. Vi tilbyder ingrediensliste, simpel fremgangsmåde og video på til alle cocktails.">
+	
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Stylesheet-->
+	<link rel="stylesheet" href="css/large.css" />
+	<link rel="stylesheet" media="screen and (max-width: 991px)" href="css/medium.css" />
+	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/small.css" />
+	<link rel="stylesheet" media="screen and (max-width: 350px)" href="css/xsmall.css" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!--font awesome til brugermenu ikonet-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	
+	<!--Henter den typeface vi har valgt-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+	<title>Mix it up</title>
+</head>
+
+<body>
+	
+	<!--Scrol til toppen knap-->
+	<div onclick="ScrollTop()" id="top-btn"><i class="fa fa-angle-up"></i></div>
+	
+	<!--bootstrap contioner til alt indhold -->
+	<div class="container">
+
+		<!--NAVNIGATION-->
+		<nav class="navbar navbar-expand-lg">
+
+			<a class="navbar-brand" href="index.html">
+				<img src="billeder/logo.svg" alt="Mix It Up Logo af cocktailshaker" class="logo_img"/>
+				<p class="logo-name">Mix it up</p>
+			</a>
+
+			<!-- Burgermenu -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+				<ul class="navbar-nav snip1217">
+					<li class="current"><a class="nav-item nav-link" href="index.html">Forside</a></li>
+					<li><a class="nav-item nav-link" href="cocktails-opskrifter.html">Cocktails</a></li>
+					<li><a class="nav-item nav-link" href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+	</div> <!-- continer slut -->	
+
+	<!-- Dette er billedet øverst på siden, som "bevæger sig" når man ruller ned af siden.
+	Den er ikke med i continer, fordi den skal gå fra side til side -->
+	<div id="header_banner" class="header_banner2"></div>
+
+	<!-- Bootstrap contioner til alt indhold -->
+	<div class="container">
+		
+		<!-- Denne div indeholder de elementer som skal være oven på billedet/banneret -->
+		<div class="forside-contianer row d-flex justify-content-center">
+				<div class="col-md-12 mt-auto-mix mb-auto">
+					<p class="frontpage_heading">Mix it up</p>
+					<p class="white">Vil du lære at lave cocktails?</p>
+					<a href="cocktails-opskrifter.html" class="my-btn">Se vores cocktails her</a>
+				</div><!-- col-md-12 -->
+		</div><!-- forside-contianer -->
+
+		<!-- TEASER -->
+		<div class="row">
+			<div class="col-12">
+				<h1 class="forside">Har du prøvet disse cocktails?</h1>
+			</div>
+		</div>
+	
+
+		<div class="row">
+			<!--aperol-->
+			<div class="col-sm-12 col-md-6 col-lg-4 afstand-card">
+				<a href="cocktails-pages/aperol-spritz.html">
+					<div class="card3">
+						<img src="billeder/aperol-spritz.svg" draggable="false" class="img_cocktail" alt="Billede af aperol spritz">
+						<div class="card-body">
+							<h4 class="cocktail_name">Aperol Spritz</h4>
+							<p>Aperol Spritz er en bitter cocktail, som fungere godt i mange sammenhængen. Vi anbefaler en Aperol Spritz til hygge, velkomst, før, til og efter maden.</p>
+						</div><!-- card-body -->
+					</div><!-- card -->
+				</a>
+			</div>
+
+			<!--pinacolada-->
+			<div class="col-sm-12 col-md-6 col-lg-4 afstand-card">
+				<a href="cocktails-pages/pina-colada.html">
+					<div class="card3">
+						<img src="billeder/pina-colada.svg" draggable="false" class="img_cocktail" alt="Billede af Pina Colada">
+						<div class="card-body">
+							<h4 class="cocktail_name">Pina Colada</h4>
+							<p>Pina Colada er en sød cocktail, med smag af ananas. Vi anbefaler Pina Colada til fest og hygge.</p>
+						</div><!-- card-body -->
+					</div><!-- card -->
+				</a>
+			</div>
+
+			<!--cosmopolitan-->
+			<div class="col-sm-12 col-md-6 col-lg-4 afstand-card">
+				<a href="cocktails-pages/cosmopolitan.html">
+					<div class="card3">
+						<img src="billeder/cosmopolitan.svg" draggable="false" class="img_cocktail" alt="Billede af cosmopolitan">
+						<div class="card-body">
+							<h4 class="cocktail_name">Cosmopolitan</h4>
+							<p>Cosmopolitan er en syrlig cocktail, da den bla. indeholder appelsinskal og saft. Vi anbefaler en cosmopolitan til fest, velkomst og før maden.</p>
+						</div><!-- card-body -->
+					</div><!-- card -->
+				</a>
+			</div>
+		</div><!-- row -->
+
+		<!-- OM OS -->
+		<!-- Denne er med til SEO optimering -->
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-8">
+				<h2>Om os</h2>
+				<p>Cocktails er ikke bare noget man drikker, det er en oplevelse. Vi hos Mix It Up gør os umage med lave en nemme Cocktails guides til dig, så du kan få en lækker oplevelse derhjemme. Det er derfor også vigtig for os at kunne leverer et bredt udvalg af cocktails. Har du tips og tricks om cocktails som du gerne vil dele, er du velkommen til at kontakte os <a href="kontakt.html" class="link">her</a>.</p>
+			</div>
+		</div><!-- row -->
+
+		</div><!-- container -->
+	
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p>&copy; Copyright <script>document.write(new Date().getFullYear())</script> - Mix It Up <br><a href="kontakt.html" class="link">Kontakt os her</a></p>
+					
+					<div class="sociale">
+					<p class="sociale">Følg os her:</p>
+					<!-- Facebook -->
+					<button id="facebook" class="footer-facebook" onClick="facebook()">
+					</button>
+
+					<!-- Instragram -->
+					<button id="instagram" class="footer-instagram" onClick="instagram()">
+					</button>
+					</div>
+				</div>
+			</div><!--Row-->
+			</div>
+		</footer>
+		
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!-- Vores JS-->
+	<script src="js/links.js"></script>
+
+	<!-- Denne gør at man kommer til toppen, når man klikker på op kanppen -->
+	<script>
+		// Metode til at vedhæfte en 'event handler' til dokumentet. 
+		document.addEventListener("scroll", yScroll);
+		function yScroll() {
+			// Variable der gemmer brugerens position (y, vertikalt) på siden
+			var yPos = window.pageYOffset;
+			// Med vores position som vi gemte i vores yPos variabel, tjekker vi nu om den er større end 200px, hvis den er så ...
+			if (yPos > 200) {
+				// styler vi på knappen så den er synlig
+				document.getElementById("top-btn").style.bottom = "10px";
+			}
+			else {
+				// styler vi på knappen så den er skjult
+				document.getElementById("top-btn").style.bottom = "-50px";
+			}
+		}
+		function ScrollTop() {	
+			// window: er et objekt der repræsenterer et åbent vindue i en browser.
+			// scrollTo: er en funktion de scroller dokumentet til de angivne koordinater (x,y)
+			window.scrollTo(0, 0);	
+		}
+	</script>
+</body>
+</html>

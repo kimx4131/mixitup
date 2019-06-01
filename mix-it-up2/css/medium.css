@@ -1,0 +1,63 @@
+/********** BASIS **********/
+
+.container {
+	padding-right: 25px !important;
+	padding-left: 25px !important;
+}
+
+/********** NAV **********/
+
+.navbar-nav.snip1217 {
+	background-color: rgb(247, 247, 247);
+	z-index:999;
+	padding:25px;
+}
+
+.navbar-collapse {
+	position: absolute !important;
+	top:120%;
+	left:0;
+	width:100%;
+	z-index:999;
+}
+
+.navbar-nav .nav-link {
+	width:100%;
+}
+
+/********** NAGIVATION **********/
+.navbar-brand{
+	width: 12%;
+}
+
+.navbar-toggler-icon{
+	color: white;
+	font-size: 1.5rem;
+}
+
+/******************* FORSIDE *******************/
+
+.header_banner2 {
+	background-image:url("../billeder/header_banner_tablet.jpg");
+}
+
+.mt-auto-mix{
+	margin-top: 50%;
+}
+
+.down-from-banner {
+	margin-top:0 !important;
+}
+
+/********** ENKELTE COCKTAIL **********/
+
+video {
+	margin-left: 0;
+	width: 100%;
+}
+
+/********** KONTAKT **********/
+.margin-top{
+	margin-top: 50px;
+}
+

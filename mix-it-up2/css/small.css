@@ -1,0 +1,87 @@
+/********** BASIS **********/
+
+h1{
+	font-size: 2rem !important;
+}
+
+h2 {
+	font-size: 1.7rem !important;
+}
+
+h3 {
+	font-size: 1.5rem !important;
+}
+
+h4 {
+	font-size: 1.3rem !important;
+}
+
+.footer-social {
+	margin-left:0 !important;
+}
+
+
+
+/********** NAVIGATION **********/
+.navbar-brand{
+	width: 15%;
+}
+
+.logo-name{
+	font-size: 2.8rem;
+}
+
+.snip1217 a:after{
+	display: none;
+}
+
+/********** FORSIDE **********/
+.mt-auto-mix{
+	margin-top: 40%;
+}
+
+.header_banner2 {
+	background-image:url("../billeder/header_banner_mobile.jpg");
+	background-size: auto;
+}
+
+.forside{
+	margin-top: 45px !important;		
+}
+
+/********** SCROLL **********/
+#top-btn{
+	display: none;
+}
+
+/********** ENKELTE COCKTAIL **********/
+
+video {
+	margin-left: 0;
+	width: 100%;
+}
+
+/********** CARD **********/
+
+.card3 {
+	min-height:100%;
+}
+
+/********** KONTAKT **********/
+
+.lead {
+	font-size: 1rem !important;
+}
+
+.stilling {
+	font-size: 0.8rem;
+}
+
+.person {
+	margin-top: 25px;
+}
+
+/********** KONTAKT **********/
+#instagram {
+	margin-left: 20px;
+}

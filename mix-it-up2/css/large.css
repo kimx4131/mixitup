@@ -1,0 +1,465 @@
+@charset "utf-8";
+/* CSS Document */
+
+/********** 
+	INFO
+	Interaktioner color: #40a2aa (Blue)
+	Heading color: #e7b366 (Brown/Gold)
+	tekst: #545454
+	Typeface: Raleway
+**********/
+
+/********** BASICS **********/
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+	background-color: #545454 !important;
+}
+
+h1, h2, h3, h4{
+	color: #e7b366;
+}
+
+h1, h2, h3{
+	margin-top: 50px !important;
+	margin-bottom: 30px !important;
+}
+
+header {
+	margin-top:25px;
+}
+
+footer {
+	margin-top:70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #dddddb;
+	text-align: center;
+}
+
+p {
+	color: white !important;
+}
+
+a{
+	color: #40a2aa !important;
+}
+
+form{
+	margin-top: 25px;
+}
+
+.link{
+	text-decoration: underline !important;
+	color: #40a2aa !important;
+	font-weight: 700;
+}
+
+a:hover, .link:hover{
+	color: #40a2aa;
+	text-decoration: none !important;
+}
+
+/******************* NAV *******************/
+nav {
+	margin-top: 10px;
+}
+
+.navbar-toggler {
+	line-height: 1.5 !important;
+	font-size:22.5px !important;
+}
+
+.navbar-toggler:focus {
+	outline:none !important;
+}
+
+.navbar-nav{
+	font-size: 1.2rem;
+}
+
+.navbar-nav a:hover {
+	color: #40a2aa;
+}
+
+.navbar.navbar-expand-lg {
+	padding:0 !important;
+}
+
+.nav-item.nav-link {
+	margin-right:40px;
+}
+
+.nav-item.nav-link:last-of-type {
+	margin-right:0;
+}
+
+.logo_img {
+	width:100%;
+}
+
+.logo-name{
+	display: inline;
+	vertical-align: middle;
+	font-size: 3rem;
+	margin-left: 10px;
+}
+
+.navbar-brand{
+	width: 7%;
+	display: inline;
+}
+
+/* Effekt med hover (snip1217) */
+.snip1217 {
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.snip1217 * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.snip1217 li {
+	display: inline-block;
+	list-style: outside none none;
+	margin: 0.5em 0.5em;
+	padding: 0;
+}
+
+.snip1217 a {
+	padding: 0.3em 0;
+	color: #545454;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.snip1217 a:after {
+	height: 2px;
+	position: absolute;
+	content: '';
+	background-color: #40a2aa;
+	width: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.snip1217 a:hover:after {
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+.snip1217 a:hover,
+.snip1217 .current a {
+	color: #40a2aa;
+}
+
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+	width: 100%;
+}
+
+/******************* FORSIDE *******************/
+
+#header_banner {
+	position: absolute;
+	width:100%;
+	height: 70%;
+	min-height: 550px;
+	top:20%;
+}
+
+.header_banner2 {
+	background-image:url("../billeder/header_banner.svg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 100%;
+}
+
+.mt-auto-mix{
+	margin-top: 25%;
+}
+
+.forside-contianer {
+	height: 92vh;
+	top: 25%;
+	position: relative;
+}
+
+.forside-contianer .my-btn{
+	color: white !important;
+}
+
+.frontpage_heading {
+	font-size:58px;
+	color:white;
+}
+
+.forside{
+	margin-top: 0 !important;		
+}
+
+.white {
+	color:white;
+}
+
+.my-btn{
+	margin-top: 10px;
+	color: white;
+	border: none;
+	background-color: #40a2aa;
+	display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.my-btn:hover{
+	background-color: #e7b366;
+}
+
+/********** CARDS **********/
+
+.card3 {
+    background-color: #dddddb;
+    background-clip: border-box;
+    border: 1px solid #dddddb;
+	min-height: 400px;
+	height: 100%;
+	border-radius: 7px;
+}
+
+.card3 p {
+	color: #545454 !important;
+}
+
+.card3 h4 {
+	color: #40a2aa;
+	font-weight: 700;
+}
+
+.card3:hover h4.cocktail_name {
+	text-decoration: underline;
+	
+}
+
+div .card-body{
+	padding-bottom: 0 !important;
+}
+
+.afstand-card{
+	margin-bottom: 30px;
+}
+
+.img_cocktail {
+	width:100%;
+	height: auto;
+	border-radius: 7px 7px 0px 0px;
+}
+
+/******************* KONTAKT *******************/
+
+.instagram {
+	background: url("../billeder/social_icon-04.png") no-repeat;
+	margin-left: 15px;
+}
+
+.facebook{
+	 background: url("../billeder/social_icon-01.png") no-repeat;
+}
+
+.facebook, .instagram{
+	transition: color .3s ease-out, background .3s ease-out;
+	border: none;
+	width: 60px;
+	height: 60px;
+}
+
+.instagram:hover{
+	background: url("../billeder/social_icon-05.png") no-repeat;
+}
+
+.facebook:hover{
+	background: url("../billeder/social_icon-03.png") no-repeat;
+}
+
+.person{
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+	margin-right: auto;
+	border-radius: 100%;
+}
+
+.lead{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.stilling{
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.form-control{
+	background-color: #dddddb !important;
+}
+
+.k-afstand{
+	margin-bottom: 25px;
+}
+
+
+/******************* DEN ENKELT COCKTIAL *******************/
+
+.cocktail_title {
+	margin-top: 0 !important;
+}
+
+.cocktail{
+	width: 100%;
+	height: auto;
+	border: 1px #dddddb solid;
+	border-radius: 7px;
+}
+
+.step {
+	width:35px;
+	height:35px;
+}
+
+video{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: auto;
+	border: 1px solid #dddddb;
+    border-radius: 7px;
+}
+
+.mb-auto p{
+	margin-bottom: 0;
+}
+
+.afstand{
+	margin-bottom: 15px;
+}
+
+.btn-back{
+	margin-top: 50px;
+    margin-bottom: 30px;
+	color: white !important;
+}
+
+
+/******************* FOOTER *******************/
+.footer-instagram {
+	background: url("../billeder/social_icon-04.png") no-repeat;
+	margin-left: 15px;
+}
+
+.footer-facebook{
+	 background: url("../billeder/social_icon-01.png") no-repeat;
+}
+
+.footer-facebook, .footer-instagram{
+	transition: color .3s ease-out, background .3s ease-out;
+	background-size: contain;
+	border: none;
+	width: 50px;
+	height: 50px;
+}
+
+.footer-instagram:hover{
+	background: url("../billeder/social_icon-05.png") no-repeat;
+	background-size: contain;
+}
+
+.footer-facebook:hover{
+	background: url("../billeder/social_icon-03.png") no-repeat;
+	background-size: contain;
+}
+
+#instagram {
+	margin-left: 10px;
+}
+
+.sociale{
+	margin-top: 20px;
+}
+
+.sociale p{
+	margin-bottom: 0;
+}
+
+footer p {
+	color: #545454 !important;
+}
+
+footer .link{
+	font-weight: normal;
+}
+
+
+/******************* SCROLL *******************/
+
+#top-btn {
+	width: 50px;
+	height: 50px;
+	bottom: -50px;
+	right: 20px;
+	position: fixed;
+	text-align: center;
+	border-radius: 100px;
+	background-color: #40a2aa;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+	-webkit-transition: all .5s;
+	transition: all .3s;
+	z-index:99;
+}
+
+#top-btn:hover {
+	background-color: #e7b366;
+}
+
+#top-btn i {
+	font-size: 20px;
+	line-height: 50px;
+	color: #FFFFFF;
+	-webkit-transition: all .5s;
+	transition: all .3s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/******************* OTHERS ******************/
+
+button {
+	transition: all .2s ease-out !important;
+}
+
+#showall{
+	background-color: #e7b366;
+}
+
+
+
+
+
+
+
